@@ -272,11 +272,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "about":
             buttons = [
                 [
-                    InlineKeyboardButton('Maker', url='https://t.me/CPUNKUSERGEXBOT'),
+                    InlineKeyboardButton('Developer', url='https://t.me/CPUNKUSERGEXBOT'),
                     InlineKeyboardButton('Source Code', url='https://github.com/subinps/Media-Search-bot')
                 ]
                 ]
-            await query.message.edit(text="<b>CREATOR : <a href='https://t.me/cyber_punk_me'>ARJUN SUKUMARAN</a>\nLANGUAGE : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSOURCE CODE : <a href='https://github.com/subinps/Media-Search-bot'>Click here</a>\nWHOAMI : <a href='https://t.me/cpunkusergexbot'>USERBOT</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+            await query.message.edit(text="<b>MAINTAINED BY : <a href='https://t.me/cyber_punk_me'>ARJUN SUKUMARAN</a>\nLANGUAGE : <code>Python3</code>\nLIBRARY : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSOURCE CODE : <a href='https://github.com/subinps/Media-Search-bot'>Click here</a>\nWHOAMI : <a href='https://t.me/cpunkusergexbot'>USERBOT</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
 
 
@@ -297,8 +297,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('User Bot', url='https://t.me/cpunkusergebot'),
-                        InlineKeyboardButton('Movie Group', url='https://t.me/Cinegramam')
+                        InlineKeyboardButton('Main Movie Group', url='https://t.me/joinchat/WGzYiotIH4QwZjRl'),
+                        InlineKeyboardButton('Movie Group (Soon)', url='https://t.me/Cinegramam')
                     ]
                     ]
                 
@@ -329,8 +329,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{title}"
                 buttons = [
                     [
-                        InlineKeyboardButton('User Bot', url='https://t.me/cpunkusergexbot'),
-                        InlineKeyboardButton('Movie Group', url='https://t.me/joinchat/aUs_dXpvPs0wM2E1')
+                        InlineKeyboardButton('Main Movie Group', url='https://t.me/joinchat/WGzYiotIH4QwZjRl'),
+                        InlineKeyboardButton('Movie Group (Soon)', url='https://t.me/joinchat/aUs_dXpvPs0wM2E1')
                     ]
                     ]
                 
@@ -346,4 +346,4 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "pages":
             await query.answer()
     else:
-        await query.answer("കൗതുകം ലേശം കൂടുതൽ ആണല്ലേ👀",show_alert=True)
+        await query.answer("അടങ്ങിയിരിക്ക് ഉണ്ണിയേ... കഥ തീർന്നു.",show_alert=True)
