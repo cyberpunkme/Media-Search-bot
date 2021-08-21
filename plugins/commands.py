@@ -67,7 +67,7 @@ async def start(bot, cmd):
                 buttons = [
                     [
                         InlineKeyboardButton('Search again', switch_inline_query_current_chat=''),
-                        InlineKeyboardButton('Contact me', url='https://t.me/cpunkusergebot')
+                        InlineKeyboardButton('Contact', url='https://t.me/cpunkusergebot')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -100,7 +100,7 @@ async def start(bot, cmd):
                 [
                     [
                         InlineKeyboardButton("Search Here", switch_inline_query_current_chat=''),
-                        InlineKeyboardButton("Contact me", url="https://t.me/cpunkusergexbot")
+                        InlineKeyboardButton("Contact", url="https://t.me/cpunkusergexbot")
                     ],
                     [
                         InlineKeyboardButton("About", callback_data="about")
@@ -196,4 +196,4 @@ async def bot_info(bot, message):
             InlineKeyboardButton('Source Code', url='https://github.com/subinps/Media-Search-bot')
         ]
         ]
-    await message.reply(text="<b>Developer : <a href='https://t.me/subinps_bot'>SUBIN</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://github.com/subinps/Media-Search-bot'>Click here</a>\nUpdate Channel : <a href='https://t.me/subin_works'>XTZ Bots</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+    await message.reply(text="<b>MASTERMIND : <a href='https://t.me/cyber_punk_me'>ARJUN SUKUMARAN</a>\nLANGUAGE : <code>Python3</code>\nLIBRARY : <a href='https://docs.pyrogram.org/'>PYROGRAM ASYNCIO</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
