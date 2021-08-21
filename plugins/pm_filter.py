@@ -272,8 +272,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "about":
             buttons = [
                 [
-                    InlineKeyboardButton('Developer', url='https://t.me/CPUNKUSERGEXBOT'),
-                    InlineKeyboardButton('Source Code', url='https://github.com/subinps/Media-Search-bot')
+                    InlineKeyboardButton('Developer', url='https://t.me/CPUNKUSERGEXBOT')
+                   
                 ]
                 ]
             await query.message.edit(text="<b>MAINTAINED BY : <a href='https://t.me/cyber_punk_me'>ARJUN SUKUMARAN</a>\nLANGUAGE : <code>Python3</code>\nLIBRARY : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSOURCE CODE : <a href='https://github.com/subinps/Media-Search-bot'>Click here</a>\nWHOAMI : <a href='https://t.me/cpunkusergexbot'>USERBOT</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
@@ -298,7 +298,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 buttons = [
                     [
                         InlineKeyboardButton('Main Movie Group', url='https://t.me/joinchat/WGzYiotIH4QwZjRl'),
-                        InlineKeyboardButton('Movie Group (Soon)', url='https://t.me/Cinegramam')
+                        InlineKeyboardButton('Movie Group (Soon)', url='https://t.me/joinchat/aUs_dXpvPs0wM2E1')
                     ]
                     ]
                 
