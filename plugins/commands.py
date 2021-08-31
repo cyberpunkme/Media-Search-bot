@@ -100,7 +100,7 @@ async def start(bot, cmd):
                 [
                     [
                         InlineKeyboardButton("Search Here", switch_inline_query_current_chat=''),
-                        InlineKeyboardButton("Contact", url="https://t.me/cpunkusergexbot")
+                        InlineKeyboardButton("Contact", url="https://t.me/cpunkusergebot")
                     ],
                     [
                         InlineKeyboardButton("About", callback_data="about")
@@ -192,8 +192,8 @@ async def delete(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton('Movie Group', url='https://t.me/CineGramam'),
-            InlineKeyboardButton('Source Code', url='https://github.com/subinps/Media-Search-bot')
-        ]
+            InlineKeyboardButton('Movie Group', url='https://t.me/CineGramam')
+           
+
         ]
     await message.reply(text="<b>MASTERMIND : <a href='https://t.me/cyber_punk_me'>ARJUN SUKUMARAN</a>\nLANGUAGE : <code>Python3</code>\nLIBRARY : <a href='https://docs.pyrogram.org/'>PYROGRAM ASYNCIO</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
