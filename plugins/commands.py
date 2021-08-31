@@ -196,4 +196,4 @@ async def bot_info(bot, message):
            
 
         ]
-    await message.reply(text="<b>MASTERMIND : <a href='https://t.me/cyber_punk_me'>ARJUN SUKUMARAN</a></b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+    await message.reply(text="<b>MASTERMIND : <a href='https://t.me/cyber_punk_me'>ARJUN SUKUMARAN</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
