@@ -272,11 +272,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "about":
             buttons = [
                 [
-                    InlineKeyboardButton('Developer', url='https://t.me/CPUNKUSERGEXBOT')
+                    InlineKeyboardButton('Developer', url='https://t.me/cpunkusergebot')
                    
                 ]
                 ]
-            await query.message.edit(text="<b>MAINTAINED BY : <a href='https://t.me/cyber_punk_me'>ARJUN SUKUMARAN</a>\nLANGUAGE : <code>Python3</code>\nLIBRARY : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSOURCE CODE : <a href='https://github.com/subinps/Media-Search-bot'>Click here</a>\nWHOAMI : <a href='https://t.me/cpunkusergexbot'>USERBOT</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+            await query.message.edit(text="<b>MAINTAINED BY : <a href='https://t.me/cyber_punk_me'>ARJUN SUKUMARAN</a>\nLANGUAGE : <code>Python3</code>\nLIBRARY : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSOURCE CODE : <a href='https://github.com/subinps/Media-Search-bot'>Click here</a>\nWHOAMI : <a href='https://t.me/cpunkusergebot'>USERBOT</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
 
 
@@ -346,4 +346,4 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "pages":
             await query.answer()
     else:
-        await query.answer("അടങ്ങിയിരിക്ക് ഉണ്ണിയേ... കഥ തീർന്നു.",show_alert=True)
+        await query.answer("okke ബൈ ഇനിയൊന്നൂല്ല",show_alert=True)
